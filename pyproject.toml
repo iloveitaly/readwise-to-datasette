@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "readwise-to-datasette"
-version = "0.1.0"
+version = "0.2.0"
 description = "Extract readwise highlights into a datasette sqlite DB"
 authors = ["Michael Bianco <mike@mikebian.co>"]
 license = "MIT"
