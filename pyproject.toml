@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "readwise-to-datasette"
+version = "0.1.0"
+description = "Extract readwise highlights into a datasette sqlite DB"
+authors = ["Michael Bianco <iloveitaly@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+readwise = "^1.1.0"
+sqlite-utils = "^3.36"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
