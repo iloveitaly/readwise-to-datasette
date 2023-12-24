@@ -6,6 +6,7 @@ authors = ["Michael Bianco <mike@mikebian.co>"]
 license = "MIT"
 readme = "README.md"
 keywords = ["readwise", "datasette"]
+homepage = "https://github.com/iloveitaly/readwise-to-datasette"
 
 [tool.poetry.dependencies]
 python = "^3.12"
