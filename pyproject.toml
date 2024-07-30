@@ -10,16 +10,16 @@ homepage = "https://github.com/iloveitaly/readwise-to-datasette"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-sqlite-utils = "^3.36"
+sqlite-utils = "^3.37"
 click = "^8.1.7"
-funcy-pipe = "^0.5.0"
-requests = "^2.31.0"
+funcy-pipe = "^0.11.0"
+requests = "^2.32.3"
 
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.12.1"
+black = "^24.4.2"
 isort = "^5.13.2"
-pyright = "^1.1.342"
+pyright = "^1.1.373"
 
 [build-system]
 requires = ["poetry-core"]

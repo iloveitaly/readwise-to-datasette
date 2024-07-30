@@ -4,6 +4,8 @@ import sqlite_utils
 import requests
 import funcy_pipe as fp
 
+READWISE_API_BASE_URL = "https://readwise.io/api/v2"
+
 
 def fetch_from_books_api(token, params={}):
     all_books = []
@@ -13,7 +15,7 @@ def fetch_from_books_api(token, params={}):
         params["page"] = page
         headers = {"Authorization": f"Token {token}"}
         response = requests.get(
-            "https://readwise.io/api/v2/books/", headers=headers, params=params
+            f"{READWISE_API_BASE_URL}/books/", headers=headers, params=params
         )
         response.raise_for_status()
         data = response.json()
@@ -41,7 +43,7 @@ def fetch_from_export_api(token, updated_after=None):
         # print("Making export api request with params " + str(params) + "...")
 
         response = requests.get(
-            url="https://readwise.io/api/v2/export/",
+            url=f"{READWISE_API_BASE_URL}/export/",
             params=params,
             headers={"Authorization": f"Token {token}"},
             verify=False,
