@@ -57,7 +57,9 @@ def fetch_from_export_api(token, updated_after=None):
 
 
 @click.command()
-@click.option("--dbname", default="data.db", help="Name of the SQLite database file")
+@click.option(
+    "--dbname", default="highlights.db", help="Name of the SQLite database file"
+)
 def main(dbname):
     token = os.environ["READWISE_API"]
 
