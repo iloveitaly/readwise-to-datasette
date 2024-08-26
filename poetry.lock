@@ -209,13 +209,13 @@ files = [
 
 [[package]]
 name = "funcy-pipe"
-version = "0.11.0"
+version = "0.11.1"
 description = "If Funcy and Pipe had a baby. Decorates all Funcy methods with Pipe superpowers."
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "funcy_pipe-0.11.0-py3-none-any.whl", hash = "sha256:3ad64a39ea9299e52edaba929803422bd80acc10e04ce1746f4fe549d54f461e"},
-    {file = "funcy_pipe-0.11.0.tar.gz", hash = "sha256:8dcedb05b13f4502e88ec75a794da1c4682ee3c6aab59c9a423cf42dc3b94805"},
+    {file = "funcy_pipe-0.11.1-py3-none-any.whl", hash = "sha256:9c0dee5218c4a87d1c5e7e27d622d6b84f526344cea8010c9d57cbc4937a5beb"},
+    {file = "funcy_pipe-0.11.1.tar.gz", hash = "sha256:5f23c8cf497e3fffdfd404ae8f5a676d314a584820faa839c7f5a40325d4393e"},
 ]
 
 [package.dependencies]
