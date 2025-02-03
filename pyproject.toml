@@ -18,7 +18,7 @@ requests = "^2.32.3"
 
 [tool.poetry.group.dev.dependencies]
 black = ">=24.4.2,<26.0.0"
-isort = "^5.13.2"
+isort = ">=5.13.2,<7.0.0"
 pyright = "^1.1.373"
 
 [build-system]
