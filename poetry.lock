@@ -217,14 +217,14 @@ files = [
 
 [[package]]
 name = "funcy-pipe"
-version = "0.11.1"
+version = "0.12.0"
 description = "If Funcy and Pipe had a baby. Decorates all Funcy methods with Pipe superpowers."
 optional = false
 python-versions = "<4.0,>=3.8"
 groups = ["main"]
 files = [
-    {file = "funcy_pipe-0.11.1-py3-none-any.whl", hash = "sha256:9c0dee5218c4a87d1c5e7e27d622d6b84f526344cea8010c9d57cbc4937a5beb"},
-    {file = "funcy_pipe-0.11.1.tar.gz", hash = "sha256:5f23c8cf497e3fffdfd404ae8f5a676d314a584820faa839c7f5a40325d4393e"},
+    {file = "funcy_pipe-0.12.0-py3-none-any.whl", hash = "sha256:7afe5e07702352cbcfe4ea60ae13a1540c84e2d14f58b3997fecde13d189db6a"},
+    {file = "funcy_pipe-0.12.0.tar.gz", hash = "sha256:418a200c7fec3caf2ca5204b78c0009e26ee157724d14ef48d210acb49a28655"},
 ]
 
 [package.dependencies]
@@ -499,4 +499,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.12"
-content-hash = "ed05d7aada1d88b312b3d47b09db8759e87c10cf82a00c8ac4a5038d341efbcc"
+content-hash = "b6d0cd4221f7ba4b9a02298e252e310b218f6c6fd451df7af6304c364f323cf1"
