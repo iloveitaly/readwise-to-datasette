@@ -12,7 +12,7 @@ homepage = "https://github.com/iloveitaly/readwise-to-datasette"
 python = "^3.12"
 sqlite-utils = "^3.37"
 click = "^8.1.7"
-funcy-pipe = ">=0.11,<0.13"
+funcy-pipe = ">=0.11,<0.14"
 requests = "^2.32.3"
 
 
