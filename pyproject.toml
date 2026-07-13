@@ -10,7 +10,7 @@ homepage = "https://github.com/iloveitaly/readwise-to-datasette"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-sqlite-utils = "^3.37"
+sqlite-utils = ">=3.37,<5.0"
 click = "^8.1.7"
 funcy-pipe = ">=0.11,<0.15"
 requests = "^2.32.3"
